@@ -1,0 +1,14 @@
+print("Sinh vien: Duong Van Nhan")
+print("Ma so SV : 235752021610052")
+ten = input ('Nhap ten:') # Nhập tên người
+parts = ten.split () # Tách tên thành các phần
+
+# Giả sử rằng họ là phần đầu tiên và tên riêng là phần cuối cùng
+if len (parts) >= 2: # Đảm bảo có ít nhất họ và tên
+    ho = parts[0] # Phần họ
+    ten_Tieng = parts[-1] # Phân tên riêng
+    print(f' Họ: {ho}')
+    print(f'Tên riêng: {ten_rieng}')
+else:
+    print ('Vui lỏng nhập đẩy đù họ và tên!')
+
