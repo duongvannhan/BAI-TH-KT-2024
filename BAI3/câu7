@@ -1,0 +1,9 @@
+print("Sinh vien: Duong Van Nhan")
+print("Ma so SV : 235752021610052")
+  def checkValue(n):
+  if n%2 == 0:
+    print ("Đây là một số chẵn")
+  else:
+    print ("Đây là một số 1ẻ")
+checkValue(8)
+
