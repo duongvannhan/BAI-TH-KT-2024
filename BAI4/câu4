@@ -1,0 +1,6 @@
+print("Sinh vien: Duong Van Nhan")
+print("Ma so SV : 235752021610052")
+ds=input('Danh sach').split()
+print(ds)
+for so in ds:
+    print(so)
