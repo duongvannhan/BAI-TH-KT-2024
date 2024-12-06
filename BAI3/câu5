@@ -1,0 +1,9 @@
+print("Sinh vien: Duong Van Nhan")
+print("Ma so SV : 235752021610052")
+  a = "Hello Guy!"
+def say():
+ global a
+ a = " Vinh University "
+ print(a)
+say()
+print(a)
