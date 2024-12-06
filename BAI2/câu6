@@ -1,0 +1,7 @@
+print("Sinh vien: Duong Van Nhan")
+print("Ma so SV : 235752021610052")
+  n=int(input("Nhap vao mot so:"))
+d=dict()
+for i in range(1,n+1):
+    d[i]=i*i
+print (d)
