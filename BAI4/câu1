@@ -1,0 +1,5 @@
+print("Sinh vien: Duong Van Nhan")
+print("Ma so SV : 235752021610052")
+s=input('Nhap chuoi:')
+for ch in s:
+    prunt(ch)
