@@ -1,0 +1,7 @@
+print("Sinh vien: Duong Van Nhan")
+print("Ma so SV : 235752021610052")
+  a= "Hello"
+def say_hello():
+  a= "Hello"
+  print(a)
+print(a)
