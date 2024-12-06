@@ -1,0 +1,8 @@
+print("Sinh vien: Duong Van Nhan")
+print("Ma so SV : 235752021610052")
+  a = "Hello Guy! "
+def say(a):
+   a = "Vinh University"
+   print (a)
+say(a)
+print(a)
