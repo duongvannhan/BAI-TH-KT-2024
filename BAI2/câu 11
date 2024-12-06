@@ -1,0 +1,31 @@
+print("Sinh vien: Duong Van Nhan")
+print("Ma so SV : 235752021610052")
+from math import sqrt
+
+print ("Giai pt bac 2:ax*2+bx+c=0")
+a=int (input ("nhap a:"))
+b=int (input ("nhap b:"))
+c=int (input ("nhap c:"))
+
+if a==0:
+    if b==0:
+       if c==0:
+         print ("pt vo so nghiem")
+       else:
+         print ("pt vo nghiem")
+    else:
+       if c==0:
+          print(" pt co 1 nghiem x=0")
+       else:
+          print ("pt co 1 nghiem ",-c/b)
+else:
+     y=b*b-4*a*c
+     if y<0:
+         print ("pt vo nghiem ")
+     elif y==0:
+         print ("pt co 1 nghiem x=",-b/(2*a) )
+     else:
+         print ("pt co 2 nghiem phan biet")
+         print ("x1»", float ( (-b-sqrt (y) ) / (2*a) ) )
+         print ("x2=", float ( (-b+sqrt (y) ) / (2*a) ) )
+
