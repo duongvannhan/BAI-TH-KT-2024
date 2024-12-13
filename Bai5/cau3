@@ -1,0 +1,4 @@
+print('Dương Văn Nhân MSV 235752021610052')
+import numpy as np
+x = np.arange(12, 38)
+print(x)
